@@ -29,6 +29,7 @@ public class PractiseProgramm2 {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
 		System.out.println("Browser launched successfully");
+		System.out.println("Browser successfully maximized");
 
 	}
 
