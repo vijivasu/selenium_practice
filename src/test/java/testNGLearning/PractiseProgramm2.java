@@ -28,6 +28,7 @@ public class PractiseProgramm2 {
 		driver.get("https://rahulshettyacademy.com/seleniumPractise/#/");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
+		System.out.println("Browser launched successfully");
 
 	}
 
