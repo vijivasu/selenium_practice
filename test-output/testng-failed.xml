@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testNGLearning.PractiseProgramm1">
+      <class name="testNGLearning.PractiseProgramm2">
         <methods>
-          <include name="applyPromoCode"/>
-          <include name="closeBrowser"/>
+          <include name="findDiscountedPercentage"/>
           <include name="greenkartBaseClass"/>
-          <include name="productionCheckout"/>
         </methods>
-      </class> <!-- testNGLearning.PractiseProgramm1 -->
+      </class> <!-- testNGLearning.PractiseProgramm2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

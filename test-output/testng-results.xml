@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-21T23:49:24 IST" name="Default suite" finished-at="2023-09-21T23:49:31 IST" duration-ms="6272">
+  <suite started-at="2023-09-26T22:45:11 IST" name="Default suite" finished-at="2023-09-26T22:45:21 IST" duration-ms="9475">
     <groups>
     </groups>
-    <test started-at="2023-09-21T23:49:24 IST" name="Default test" finished-at="2023-09-21T23:49:31 IST" duration-ms="6272">
+    <test started-at="2023-09-26T22:45:11 IST" name="Default test" finished-at="2023-09-26T22:45:21 IST" duration-ms="9475">
       <class name="testNGLearning.PractiseProgramm2">
-        <test-method is-config="true" signature="greenkartBaseClass()[pri:0, instance:testNGLearning.PractiseProgramm2@11392934]" started-at="2023-09-21T23:49:24 IST" name="greenkartBaseClass" finished-at="2023-09-21T23:49:30 IST" duration-ms="5798" status="PASS">
+        <test-method is-config="true" signature="greenkartBaseClass()[pri:0, instance:testNGLearning.PractiseProgramm2@11392934]" started-at="2023-09-26T22:45:11 IST" name="greenkartBaseClass" finished-at="2023-09-26T22:45:20 IST" duration-ms="8744" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- greenkartBaseClass -->
-        <test-method signature="findDiscountedPercentage()[pri:0, instance:testNGLearning.PractiseProgramm2@11392934]" started-at="2023-09-21T23:49:30 IST" name="findDiscountedPercentage" finished-at="2023-09-21T23:49:31 IST" duration-ms="430" status="PASS">
+        <test-method signature="findDiscountedPercentage()[pri:0, instance:testNGLearning.PractiseProgramm2@11392934]" started-at="2023-09-26T22:45:20 IST" name="findDiscountedPercentage" finished-at="2023-09-26T22:45:21 IST" duration-ms="692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findDiscountedPercentage -->
