@@ -63,7 +63,7 @@ public class PractiseProgramm2 {
 			String original_price = column2datas.get(i).getText();
 			int orgi_price = Integer.parseInt(original_price);
 			System.out.println(orgi_price);
-			{
+		}
 				System.out.println("Price After Discount of each Item");
 				int columnIndex2 = 2;
 				List<WebElement> column3datas = table.findElements(By.xpath(".//tr/td [" + (columnIndex2 + 1 + " ]")));
@@ -80,8 +80,8 @@ public class PractiseProgramm2 {
 			}
 
 		}
-	}
-}
+	
+
 /*
  * for(int i=0;i<column3datas.size();i++) {
  * 
