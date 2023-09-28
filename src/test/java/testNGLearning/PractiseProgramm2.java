@@ -30,7 +30,7 @@ public class PractiseProgramm2 {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
 		System.out.println("Browser launched successfully");
 		System.out.println("Browser successfully maximized");
-
+		
 	}
 
 	public void clickOnTopDeals() throws InterruptedException {
@@ -42,6 +42,7 @@ public class PractiseProgramm2 {
 		List<String> winList = new ArrayList<String>(windowHandles);
 		WebDriver window = driver.switchTo().window(winList.get(1));
 		System.out.println(window.getCurrentUrl());
+		System.out.println("Window handled applied successfully");
 	}
 
 	@Test
@@ -63,14 +64,14 @@ public class PractiseProgramm2 {
 			String original_price = column2datas.get(i).getText();
 			int orgi_price = Integer.parseInt(original_price);
 			System.out.println(orgi_price);
-			{
+		}
 				System.out.println("Price After Discount of each Item");
 				int columnIndex2 = 2;
 				List<WebElement> column3datas = table.findElements(By.xpath(".//tr/td [" + (columnIndex2 + 1 + " ]")));
 				int noOfRowsForCol3 = column3datas.size();
 				System.out.println(noOfRowsForCol2);
 
-				for (int j = 0; j < noOfRowsForCol3; j++) {
+				for (int i = 0; i < noOfRowsForCol3; i++) {
 					List<String> dicounted_price = new ArrayList<String>();
 					dicounted_price.add(column3datas.get(i).getText());
 					String discounted_price = column3datas.get(i).getText();
@@ -79,9 +80,9 @@ public class PractiseProgramm2 {
 				}
 			}
 
-		}
+		
 	}
-}
+
 /*
  * for(int i=0;i<column3datas.size();i++) {
  * 
