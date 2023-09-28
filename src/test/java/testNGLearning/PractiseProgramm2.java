@@ -80,8 +80,6 @@ public class PractiseProgramm2 {
 				}
 			}
 
-		
-	}
 
 /*
  * for(int i=0;i<column3datas.size();i++) {
